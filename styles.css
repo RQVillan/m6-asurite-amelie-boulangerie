@@ -1,0 +1,119 @@
+/* Set font family and line-height for whole page */
+html,
+body {
+  font-family: Verdana, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Set background color and margin to zero for body */
+body {
+  background-color: #F28095;
+  margin: 0;
+}
+
+/* Style for header and footer */
+header,
+footer {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* Style for header */
+header {
+  height: 150px;
+  background-color: #141a1a;
+  background-image: url('bowl.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: white;
+}
+
+/* Style for h1 in header */
+header h1 {
+  margin: 0;
+  padding-top: 50px;
+  padding-left: 32px;
+}
+
+/* Style for div with id of grid-container */
+#grid-container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #fdfdfd;
+  display: grid;
+  grid-template-columns: 184px 1fr;
+  gap: 0 16px;
+}
+
+/* Style for nav */
+nav {
+  width: 150px;
+  margin-top: 16px;
+}
+
+/* Style for list items in nav */
+nav li {
+  list-style-type: none;
+  text-align: center;
+}
+
+/* Style for links in nav */
+nav a {
+  display: block;
+  padding: 16px;
+  margin: 8px auto;
+  background-color: #e0e5de;
+  color: #141a1a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Style for first link in nav and on hover */
+nav li:first-child a,
+nav a:hover {
+  background-color: #F28095;
+}
+
+/* Style for main content */
+main {
+  color: #542c1b;
+  padding-bottom: 16px;
+}
+
+/* Style for image in main */
+main img {
+  float: left;
+}
+
+/* Style for paragraph and ul in main */
+main p,
+main ul {
+  display: inline-block;
+  width: 50%;
+}
+
+/* Style for paragraph in main */
+main p {
+  margin-left: 32px;
+}
+
+/* Style for ul in main */
+main ul {
+  margin-left: 16px;
+}
+
+/* Style for address */
+address {
+  clear: both;
+  padding-top: 16px;
+}
+
+/* Style for footer */
+footer {
+  background-color: #afaeb4;
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+  font-style: italic;
+}
